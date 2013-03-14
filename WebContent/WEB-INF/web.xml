@@ -29,4 +29,14 @@
     <servlet-name>ListaNoticia</servlet-name>
     <url-pattern>/ListaNoticia</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AutenticaUsuarioServlet</display-name>
+    <servlet-name>AutenticaUsuarioServlet</servlet-name>
+    <servlet-class>servlet.AutenticaUsuarioServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AutenticaUsuarioServlet</servlet-name>
+    <url-pattern>/AutenticaUsuarioServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
